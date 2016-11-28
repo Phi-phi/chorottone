@@ -1,0 +1,26 @@
+= stylesheet_link_tag href: "modal"
+
+.container
+  %h2 Chorottone
+
+%p
+  Upload New Image and Audio.
+
+= form_for(@media, html: {multipart: true}) do |f|
+  .form-data
+    = f.label :image
+    = f.file_field :image
+  %br
+
+  .form-data
+    = f.label :audio
+    = f.file_field :audio
+  %br
+
+  .form-data
+    = f.label :author
+    = f.text_field :author
+  %br
+  %br
+  .actions.col-md-11
+    = f.submit

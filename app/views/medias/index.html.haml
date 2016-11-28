@@ -1,0 +1,12 @@
+.container
+  %h2 Chorottone
+#modal.modal.fade{tabindex: "-1", role: "dialog", aria:{hidden: "true"}}
+%br
+= link_to "Upload", new_media_path
+%br 
+%br
+
+%table{boader: 1, cellpadding: 10}
+  - @medias.each do |media|
+    %td.item
+      = link_to image_tag(media.image.url, {class: 'thumbs'}), media_path(media), remote: true

@@ -1,0 +1,7 @@
+.modal-content
+  %p
+    = "author: #{@media.author}"
+  %br
+  = image_tag @media.image.url, id: "image"
+  %audio#audio{src: @media.audio.url, autoplay: true}
+
