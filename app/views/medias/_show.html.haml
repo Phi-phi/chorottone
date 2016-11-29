@@ -1,6 +1,8 @@
 .modal-content
+  %p.author
+    = "Author: #{@media.author}"
   %p
-    = "author: #{@media.author}"
+    Click image for playing from the beginning.
   %br
   = image_tag @media.image.url, id: "image"
   %audio#audio{src: @media.audio.url}
