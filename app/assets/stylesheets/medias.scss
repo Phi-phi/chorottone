@@ -3,11 +3,17 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 .thumbs {
-  max-width: 10vw;
+  max-width: 100%;
 }
+
+ul {
+  width: 800px;
+}
+
 .item {
-  margin: 10px;
-  width: 11vw;
+  float:left;
+  margin:10px;
+  width: 150px;
 }
 
 .modal-overlay {
@@ -40,6 +46,7 @@ a.modal-open:hover {cursor:pointer};
 }
 
 .modal-content img {
+  object-fit: contain;
   position: absolute;
   top: 0;
   left: 0;
