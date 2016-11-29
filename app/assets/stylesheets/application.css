@@ -22,3 +22,7 @@
 html {
   padding: 20px;
 }
+
+.custom-back {
+   background: rgba(0,0,0,.5);
+}
