@@ -14,5 +14,6 @@ module Chorottone
     #
     config.less.paths << "#{Rails.root}/lib/less/protractor/stylesheets"
     config.less.compress = true
+    config.assets.precompile += %w(*.eot *.svg *.ttf *.woff *.less)
   end
 end
