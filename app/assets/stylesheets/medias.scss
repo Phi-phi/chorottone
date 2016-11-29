@@ -30,6 +30,15 @@ a.modal-open:hover {cursor:pointer};
   height: 70vh;
 }
 
+.author {
+  font-size:20px;
+  font-weight:bold;
+}
+
+.explain {
+  font-size: 12px;
+}
+
 .modal-content img {
   position: absolute;
   top: 0;
@@ -43,12 +52,7 @@ a.modal-open:hover {cursor:pointer};
 }
 .modal-content h1 {font-size:120%; margin-bottom:0.5em}
 .modal-content p {
-  font-size:20px;
   text-align: center;
-}
-
-.author {
-  font-weight:bold;
 }
 a.modal-close {
   position:absolute;

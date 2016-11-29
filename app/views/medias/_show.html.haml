@@ -1,7 +1,7 @@
 .modal-content
   %p.author
     = "Author: #{@media.author}"
-  %p
+  %p.explain
     Click image for playing from the beginning.
   %br
   = image_tag @media.image.url, id: "image"
