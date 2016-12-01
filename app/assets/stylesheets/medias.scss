@@ -59,19 +59,16 @@ a.modal-open:hover {cursor:pointer};
   max-width: 58vw;
   max-height: 51vh;
 }
+
+.modal-content a {
+  text-align: center;
+  display: inline-block;
+  position: absolute;
+  left: 41%;
+  bottom: 15px;
+}
+
 .modal-content h1 {font-size:120%; margin-bottom:0.5em}
 .modal-content p {
   text-align: center;
 }
-a.modal-close {
-  position:absolute;
-  top:0;
-  right:10px;
-  color:#b29c33;
-  font-size:35px;
-  line-height:1;
-  font-weight:bold;
-  text-decoration:none;
-}
-
-a.modal-close:hover {cursor:pointer} 

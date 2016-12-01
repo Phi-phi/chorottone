@@ -6,4 +6,5 @@
   %br
   = image_tag @media.image.url, id: "image"
   %audio#audio{src: @media.audio.url}
-
+  %br
+  = link_to "Delete this iamge", destroy_media_path(id: @media.id), {class: "btn btn-danger"}
