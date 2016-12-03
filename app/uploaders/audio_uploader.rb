@@ -11,7 +11,7 @@ class AudioUploader < CarrierWave::Uploader::Base
   # storage :fog
 
   def extension_white_list
-    %w(wma aac mp3 wav)
+    %w(wma aac mp3 wav m4a)
   end
 
   # Override the directory where uploaded files will be stored.
